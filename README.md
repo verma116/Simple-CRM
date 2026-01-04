@@ -1,90 +1,81 @@
-# Simple CRM
+# Simple CRM Application
 
-Simple CRM Application
-Overview
+## Overview
 
-The Simple CRM Application is a lightweight customer relationship management system designed to help users manage customers, track interactions, and schedule follow-ups through a clean and simple interface.
+The **Simple CRM Application** is a lightweight customer relationship management system designed to help users manage customers, track interactions, and schedule follow-ups through a clean and simple interface.
 
 This project was developed as part of a technical assessment to demonstrate practical skills in frontend development, authentication, backend integration, and clean project structure.
 
-Purpose of the Project
+---
+
+## Purpose of the Project
 
 The goal of this project is to:
 
-Build a functional CRM with essential features
+* Build a functional CRM with essential features
+* Implement secure user authentication
+* Manage customer data efficiently
+* Track interactions and follow-ups
+* Deliver a stable and demo-ready application within a limited timeframe
 
-Implement secure user authentication
+---
 
-Manage customer data efficiently
+## Tech Stack
 
-Track interactions and follow-ups
+* **Frontend:** React.js
+* **Backend & Authentication:** Supabase
+* **Database:** Supabase PostgreSQL
+* **Version Control:** Git & GitHub
 
-Deliver a stable and demo-ready application within a limited timeframe
+---
 
-Tech Stack
+## Features
 
-Frontend: React.js
+### Authentication
 
-Backend & Authentication: Supabase
+* User signup using email and password
+* User login
+* Secure logout
 
-Database: Supabase PostgreSQL
+### Customer Management
 
-Version Control: Git & GitHub
+* Add new customer profiles
+* View customer list
+* Search customers
+* Update customer status
+* Add notes for customers
 
-Features
-Authentication
+### Interaction Management
 
-User signup using email and password
+* Log customer interactions (calls, emails, meetings)
+* View interaction history for each customer
 
-User login
+### Follow-Ups
 
-Secure logout
+* Set follow-up reminders
+* View upcoming follow-ups
 
-Customer Management
+### Dashboard
 
-Add new customer profiles
+* Clean and simple dashboard
+* Overview of customers and follow-ups
 
-View customer list
+---
 
-Search customers
+## Application Flow
 
-Update customer status
+1. User signs up or logs in
+2. User is redirected to the dashboard
+3. Customers are added and managed
+4. Interactions are logged for customers
+5. Follow-ups are scheduled and tracked
+6. User logs out securely
 
-Add notes for customers
+---
 
-Interaction Management
+## Project Structure
 
-Log customer interactions (calls, emails, meetings)
-
-View interaction history for each customer
-
-Follow-Ups
-
-Set follow-up reminders
-
-View upcoming follow-ups
-
-Dashboard
-
-Clean and simple dashboard
-
-Overview of customers and follow-ups
-
-Application Flow
-
-User signs up or logs in
-
-User is redirected to the dashboard
-
-Customers are added and managed
-
-Interactions are logged for customers
-
-Follow-ups are scheduled and tracked
-
-User logs out securely
-
-Project Structure
+```
 src/
 │── components/
 │── pages/
@@ -92,93 +83,87 @@ src/
 │── utils/
 │── App.js
 │── index.js
+```
 
-How to Run the Project Locally
+---
 
-Clone the repository:
+## How to Run the Project Locally
 
+1. Clone the repository:
+
+```bash
 git clone https://github.com/verma116/Simple-CRM.git
+```
 
+2. Navigate to the project folder:
 
-Navigate to the project folder:
-
+```bash
 cd Simple-CRM
+```
 
+3. Install dependencies:
 
-Install dependencies:
-
+```bash
 npm install
+```
 
+4. Create a `.env` file and add Supabase credentials:
 
-Create a .env file and add Supabase credentials:
-
+```
 REACT_APP_SUPABASE_URL=your_supabase_url
 REACT_APP_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
+5. Start the application:
 
-Start the application:
-
+```bash
 npm start
+```
 
+6. Open in browser:
 
-Open in browser:
-
+```
 http://localhost:3000
+```
 
-Demo Highlights
+---
+
+## Demo Highlights
 
 During the demo, the following features are showcased:
 
-User authentication (login and logout)
+* User authentication (login and logout)
+* Adding a customer profile
+* Logging a customer interaction
+* Viewing customer list and interaction history
 
-Adding a customer profile
+---
 
-Logging a customer interaction
-
-Viewing customer list and interaction history
-
-Assessment Alignment
+## Assessment Alignment
 
 This project fulfills all the requirements of the technical assessment:
 
-Login system
+* Login system
+* Customer management
+* Interaction tracking
+* Follow-up reminders
+* Clean dashboard
+* GitHub repository submission
 
-Customer management
+---
 
-Interaction tracking
+## Future Enhancements
 
-Follow-up reminders
+* Role-based access control
+* Email or SMS notifications for follow-ups
+* Advanced analytics dashboard
+* Export customer data
 
-Clean dashboard
+---
 
-GitHub repository submission
+## Author
 
-Future Enhancements
+**Adithya Verma**
+Engineering Student | Aspiring Software Developer
 
-Role-based access control
-
-Email or SMS notifications for follow-ups
-
-Advanced analytics dashboard
-
-Export customer data
-
-## Features
-
-- Authentication
-- Customer management
-- Interactions
-- Follow-ups
-- Dashboard
-
-## Tech Stack
-
-- React
-- Supabase
-
-## Setup
-
-1. Clone repo
-2. npm install
-3. Add .env
-4. npm run dev
+---
