@@ -1,5 +1,8 @@
 # Simple CRM Application
 
+**DEMO LINK**
+**https://simple-crm-ac.vercel.app/**
+
 ## Overview
 
 The **Simple CRM Application** is a lightweight customer relationship management system designed to help users manage customers, track interactions, and schedule follow-ups through a clean and simple interface.
@@ -164,6 +167,7 @@ This project fulfills all the requirements of the technical assessment:
 ## Author
 
 **Adithya Verma**
+
 Engineering Student | Aspiring Software Developer
 
 ---
